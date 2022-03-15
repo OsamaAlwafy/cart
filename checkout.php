@@ -50,7 +50,7 @@ if ($conn->query($sql) === TRUE) {
 } else {
   echo "Error updating record: " . $conn->error;
 }
-   // header("Location:steper.php");
+   header("Location:steper.php");
     exit();
   }
 }
